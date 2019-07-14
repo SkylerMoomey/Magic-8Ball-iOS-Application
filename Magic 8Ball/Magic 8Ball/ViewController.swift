@@ -33,5 +33,10 @@ class ViewController: UIViewController {
         eightBallImage.image = UIImage(named: ballImages[randomInt])
     }
     
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+    
+        changeBallImages()
+    }
+    
 }
 
