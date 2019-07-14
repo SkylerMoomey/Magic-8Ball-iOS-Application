@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     func changeBallImages()
     {
-        randomInt = Int.random(in: 0 ... 5)
+        randomInt = Int.random(in: 0 ... 4)
         
         eightBallImage.image = UIImage(named: ballImages[randomInt])
     }
